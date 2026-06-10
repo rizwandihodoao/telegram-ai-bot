@@ -1,6 +1,9 @@
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 from google import genai
+import asyncio
+
+asyncio.set_event_loop(asyncio.new_event_loop())
 
 BOT_TOKEN = "8545517929:AAHp3YB1An2fbzQxn8r-Tg1-PYszjQld0aI"
 GEMINI_API_KEY = "AQ.Ab8RN6IfMusr2Wq3Zq5IxJMP2VIJZyKeMmDvaxEUBhsxENT7SA"
