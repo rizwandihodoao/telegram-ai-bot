@@ -6,7 +6,7 @@ import asyncio
 asyncio.set_event_loop(asyncio.new_event_loop())
 
 BOT_TOKEN = "8545517929:AAHp3YB1An2fbzQxn8r-Tg1-PYszjQld0aI"
-GEMINI_API_KEY = "AQ.Ab8RN6IfMusr2Wq3Zq5IxJMP2VIJZyKeMmDvaxEUBhsxENT7SA"
+GEMINI_API_KEY = "AQ.Ab8RN6KMLGEy47x3IMN8YZA4XcRGdcPnULbE73eGdRo12OX9Iw"
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
